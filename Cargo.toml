@@ -26,6 +26,7 @@ default = ["readback-check", "async"]
 async = ["dep:embedded-hal-async", "dep:embedded-storage-async"]
 defmt = ["dep:defmt"]
 readback-check = []
+megabits8 = []
 megabits128 = []
 
 [dev-dependencies]
